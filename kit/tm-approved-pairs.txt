@@ -1,0 +1,7 @@
+Approved sentence pairs for the translation memory (English → Italian):
+
+EN: Nimbus 2.0 is here!
+IT: Nimbus 2.0 è arrivato!
+
+EN: Thanks for all the feedback that shaped this release.
+IT: Grazie a tutti per i feedback che hanno plasmato questa versione.

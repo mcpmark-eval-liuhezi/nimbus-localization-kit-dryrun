@@ -1,0 +1,21 @@
+name: Bundle Localization Kit
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  bundle:
+    name: Bundle kit files into artifact
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Upload localization kit artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: localization-kit
+          path: kit/
+          if-no-files-found: error
